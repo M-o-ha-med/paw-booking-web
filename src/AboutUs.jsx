@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div className="relative h-full">
               <img
                 className="img-fluid absolute inset-0 w-full h-full object-cover"
-                src="/img/about.jpg"
+                src="assets/about.jpeg"
                 alt="About Us"
               />
             </div>
