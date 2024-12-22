@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link
-import logo from "/src/assets/Logo.svg";
-
 export default function Navbar() {
+  const logo = "/assets/Logo.svg";
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -10,9 +9,8 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="flex-shrink-0">
-          <img src={logo} alt="Logo" className="max-h-16 transition-all duration-500" />
+        <img src={logo} alt="Logo" className="h-10" />
         </Link>
-
         {/* Mobile Menu Toggle Button */}
         <button
           className="lg:hidden text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200"
