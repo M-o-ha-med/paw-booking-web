@@ -36,9 +36,6 @@ export default function Navbar() {
           <Link to="/booking" className="text-gray-700 hover:text-gray-900 font-medium">
             Booking
           </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-gray-900 font-medium">
-            Contact
-          </Link>
           <Link
             to="/login"
             className="btn bg-blue-600 text-white rounded-full py-2 px-4 hover:bg-blue-700"

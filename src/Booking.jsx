@@ -20,12 +20,6 @@ const Booking = () => {
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
               sed stet lorem sit clita duo justo magna dolore erat amet.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-white text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300"
-            >
-              Read More
-            </a>
           </div>
           <div>
             <h1 className="text-3xl md:text-5xl font-extrabold mb-6">Book A Tour</h1>
