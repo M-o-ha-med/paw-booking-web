@@ -7,6 +7,9 @@ import AboutUs from './AboutUs';
 import Booking from './Booking';
 import Process from './Process';
 import Footer from "./Footer";
+import '@fontsource/poppins'; // Default weight (400)
+import '@fontsource/poppins/400.css'; // Optional, specify weights
+
 
 function App() {
   return (

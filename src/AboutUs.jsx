@@ -8,7 +8,7 @@ const AboutUs = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style={{ minHeight: '400px' }}>
             <div className="relative h-full">
               <img
-                className="img-fluid absolute inset-0 w-full h-full object-cover"
+                className="img-fluid absolute inset-0 w-full h-full object-cover rounded-lg"
                 src="assets/about.jpeg"
                 alt="About Us"
               />
@@ -43,9 +43,7 @@ const AboutUs = () => {
                 <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>24/7 Service</p>
               </div>
             </div>
-            <a className="btn btn-primary py-3 px-5 mt-2" href="#">
-              Read More
-            </a>
+            
           </div>
         </div>
       </div>

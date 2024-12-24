@@ -104,19 +104,11 @@ const Footer = () => {
             <p>
               &copy;{" "}
               <a className="border-b border-gray-400 hover:text-white" href="#">
-                Your Site Name
+                Bobo.co.id
               </a>
               , All Right Reserved.
             </p>
-            <p>
-              Designed By{" "}
-              <a
-                className="border-b border-gray-400 hover:text-white"
-                href="https://htmlcodex.com"
-              >
-                HTML Codex
-              </a>
-            </p>
+           
             <div className="flex justify-center md:justify-end space-x-4 mt-2 md:mt-0">
               <a href="" className="text-gray-400 hover:text-white">
                 Home

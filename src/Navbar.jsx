@@ -36,13 +36,13 @@ export default function Navbar() {
           </Link>
           <Link
             to="/login"
-            className="btn bg-blue-600 text-white rounded-full py-2 px-4 hover:bg-blue-700"
+            className="btn bg-blue-600 text-white rounded-full py-2 px-4 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
           >
             Login
           </Link>
           <Link
             to="/signup"
-            className="btn bg-blue-600 text-white rounded-full py-2 px-4 hover:bg-blue-700"
+            className="btn bg-blue-600 text-white rounded-full py-2 px-4 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
           >
             Register
           </Link>

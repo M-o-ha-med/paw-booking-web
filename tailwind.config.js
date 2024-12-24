@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/path-to-your-image.jpg')",
       },
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],
