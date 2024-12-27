@@ -16,33 +16,16 @@ const AboutUs = () => {
           </div>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
             <h6 className="section-title bg-white text-start text-primary pr-3">About Us</h6>
-            <h1 className="mb-4">Welcome to <span className="text-primary">Tourist</span></h1>
+            <h1 className="mb-4">Welcome to <span className="text-primary">BOBO!</span></h1>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
+            Your trusted companion for seamless hotel booking experiences!
+At BOBO, we believe that travel should be as easy and enjoyable as the destination itself. Whether you’re planning a luxurious getaway, a business trip, or a spontaneous weekend escape, our platform is here to connect you with the perfect accommodations.
             </p>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+            At BOBO, we’re passionate about helping travelers create unforgettable memories. That’s why we constantly strive to enhance our services and provide you with a booking experience that’s simple, secure, and personalized.
+
+Start your journey with BOBO today—because every great trip begins with a great place to stay.
             </p>
-            <div className="grid grid-cols-2 gap-4 mb-4">
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>First Class Flights</p>
-              </div>
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>Handpicked Hotels</p>
-              </div>
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>5 Star Accommodations</p>
-              </div>
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>Latest Model Vehicles</p>
-              </div>
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>150 Premium City Tours</p>
-              </div>
-              <div className="col-sm-6">
-                <p className="mb-0"><i className="fa fa-arrow-right text-primary mr-2"></i>24/7 Service</p>
-              </div>
-            </div>
             
           </div>
         </div>

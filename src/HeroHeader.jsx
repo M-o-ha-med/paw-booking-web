@@ -16,19 +16,6 @@ const HeroHeader = () => {
                 <p className="text-lg text-white mb-3 animate-slideInDown">
                   Cari tempat yang anda inginkan
                 </p>
-                <div className="relative w-3/4 mx-auto animate-slideInDown">
-                  <input
-                    className="form-control border-0 rounded-full w-full py-3 pl-4 pr-5"
-                    type="text"
-                    placeholder="Mau nginep dimana?"
-                  />
-                  <button
-                    type="button"
-                    className="btn btn-primary rounded-full py-2 px-4 absolute top-0 right-0 mt-[7px] mr-2 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
-                  >
-                    Search
-                  </button>
-                </div>
               </div>
             </div>
           </div>

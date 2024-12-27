@@ -11,14 +11,13 @@ const Booking = () => {
       <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white p-10 rounded-lg shadow-2xl">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h6 className="uppercase tracking-widest text-gray-300">Booking</h6>
-            <h1 className="text-3xl md:text-5xl font-extrabold mb-6">Online Booking</h1>
+            <h6 className="uppercase tracking-widest text-gray-300">Booking with BOBO</h6>
+            <h5 className="text-3xl md:text-5xl font-extrabold mb-6">Simple, Fast, and Secure</h5>
             <p className="mb-4 leading-relaxed">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
+            At BOBO, we’ve made hotel booking as easy as dreaming about your next destination. With just a few clicks, you’ll secure the perfect place to stay—saving time, effort, and money!
             </p>
             <p className="mb-6 leading-relaxed">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-              sed stet lorem sit clita duo justo magna dolore erat amet.
+            Wherever your travels take you, BOBO is here to make your booking process smooth, reliable, and enjoyable. Start planning your next adventure today!
             </p>
           </div>
           <div>

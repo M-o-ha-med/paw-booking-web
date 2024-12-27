@@ -80,7 +80,7 @@ const Footer = () => {
           {/* Newsletter Section */}
           <div>
             <h4 className="text-white mb-3">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>Booking your favorite hotel in BOBO</p>
             <div className="relative">
               <input
                 className="form-control border-primary w-full py-3 pl-4 pr-16"
