@@ -7,6 +7,8 @@ import AboutUs from './AboutUs';
 import Booking from './Booking';
 import Process from './Process';
 import Footer from "./Footer";
+import UpdateHotelPage from "./UpdateHotelPage"
+import AdminLandingPage from "./AdminLandingPage"
 import '@fontsource/poppins'; // Default weight (400)
 import '@fontsource/poppins/400.css'; // Optional, specify weights
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/process" element={<Process />} />
+        <Route path="/Admin" element={<AdminLandingPage />} />
+		<Route path="/Admin/update-hotel/:id" element={<UpdateHotelPage />} />
       </Routes>
       <Footer />
     </Router>

@@ -18,7 +18,7 @@ function Signup() {
     }
 
     axios
-      .post('http://localhost:5000/register', { name, email, password })
+      .post('http://localhost:3000/api/users/register', { name, email, password })
       .then((result) => {
         console.log(result);
         navigate('/login');

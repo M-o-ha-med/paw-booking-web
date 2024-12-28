@@ -26,10 +26,20 @@ exports.confirmBooking = (req, res) => {
 
 //read user's booking
 exports.getBooking = async (req, res) => {
-    db.con.query("SELECT b.userID, b.bookingID, h.namaHotel, b.isConfirmed FROM bookings b JOIN hotels h ON h.hotelID = b.hotelID;" , (err,data) => {
+
+		    db.con.query("SELECT b.userID, b.bookingID, h.namaHotel, b.isConfirmed FROM bookings b JOIN hotels h ON h.hotelID = b.hotelID;" , (err,data) => {
+			if (err) console.log(err)
+			res.json(data);
+			})
+	
+	
+};
+
+exports.getUserBookings = async (req,res) => {
+	db.con.query("SELECT b.userID, b.bookingID, h.namaHotel, b.isConfirmed FROM bookings b JOIN hotels h ON h.hotelID = b.hotelID WHERE b.userID = ?" , [req.user.userID], (err,data) => {
 	if (err) console.log(err)
 	res.json(data);
-})	
+})
 };
 
 //read specific user's booking

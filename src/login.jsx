@@ -12,12 +12,22 @@ function Login() {
     e.preventDefault();
 
     axios
-      .post('http://localhost:5000/login', { email, password })
+      .post('http://localhost:3000/api/users/login', { email, password })
       .then((result) => {
-        console.log(result);
-        if (result.data === 'success') {
-          navigate('/home');
+		console.log(result.data.user.Role);
+        if (result.data.message === 'Login successful' && result.data.user === "User") {
+		  sessionStorage.setItem('token', result.data.token);
+		  sessionStorage.setItem('role', result.data.user);
+		  sessionStorage.setItem('ID',result.data.id);
+          navigate('/');
         }
+		
+		else if (result.data.message === 'Login successful' && result.data.user === "Admin" ){
+			sessionStorage.setItem('token', result.data.token);
+			sessionStorage.setItem('role', result.data.user.Role);
+		    sessionStorage.setItem('ID',result.data.id);
+			navigate('/Admin')
+		}
       })
       .catch((err) => console.log(err));
   };

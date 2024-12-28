@@ -1,8 +1,10 @@
+require('dotenv').config();
 const bcrypt = require('bcrypt');        // Mengimpor bcrypt untuk enkripsi password
 const jwt = require('jsonwebtoken');     // Mengimpor jsonwebtoken untuk membuat token
 const User = require('../models/user');  // Mengimpor model User
 const db = require('../config/db');		 // Mengimpor database
 const sessionStorage = require('sessionstorage');
+
 
 // Function to register a new user
 exports.registerUser = async (req, res) => {
@@ -88,13 +90,12 @@ exports.loginUser = async (req, res) => {
         }
 
         // Buat token JWT yang berisi id dan email user
-        const token = jwt.sign({ userID: user.userID, email: user.userEmail , role: user.Role}, 'SECRET_KEY', { expiresIn: '1h' });
-		
-		const gyatt = token;
-		const rizz = user.Role
+        const access_token = jwt.sign({ userID: user.userID, email: user.userEmail , Role: user.Role}, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '1h' });
 		
         // Kirimkan token dan respons sukses
-        res.json({ message: 'Login successful', token:gyatt , Role:rizz , username: user.userName, userID : user.userID} );
+        res.json({ message: 'Login successful', user:user.Role , token:access_token , id:user.userID} );
+
+		
     } catch (err) {
         // Tangani error jika terjadi
         res.status(500).json({ message: err.message , code: "GYATT"});
