@@ -206,7 +206,7 @@ const Booking = () => {
       </div>
     </div>
 </div>
-  );
+
 };
 
 export default Booking;
