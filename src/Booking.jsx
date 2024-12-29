@@ -105,7 +105,7 @@ const Booking = () => {
             <p className="mb-6 leading-relaxed">
             Wherever your travels take you, BOBO is here to make your booking process smooth, reliable, and enjoyable. Start planning your next adventure today!
 	    </p>
-          </div>
+
 
           {/* Right Column - Booking Form */}
           <div>
